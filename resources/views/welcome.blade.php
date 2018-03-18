@@ -3,176 +3,198 @@
 
 @section('content')
  
+<style type="text/css">
+    .list-produk {
+
+        padding-left: 5px;
+        padding-right: 10px;
+
+    }
+    .card .card-image{
+
+        height: auto; /*this makes sure to maintain the aspect ratio*/
+        margin-top: 0px;
+    }
+    .card-pricing {
+        margin-bottom: 20px;
+    }
+    .tombolBeli {
+        padding: 10px 0px;
+        margin:0px;
+    }
+    .card-pricing .card-content {
+        padding: 10px !important;
+    }
+</style>
 
                    <h2 class="section-title">Produk</h2>
                    <div class="row">
-                        <div class="col-md-4">
-  
-                                 <div class="card card-product card-plain no-shadow" data-colored-shadow="false">
-                                     <div class="card-image">
-                                         <a href="#">
-                                             <img src="{{{ asset('foto_produk/produk_1.jpeg') }}}" alt="..."/>
-                                         </a>
-                                     </div>
-                                     <div class="card-content">
-                                         <a href="#">
-                                             <h4 class="card-title">Polo Ralph Lauren</h4>
-                                         </a>
-                                         <p class="description">
-                                            Impeccably tailored in Italy from lightweight navy wool.
-                                         </p>
-                                         <div class="footer">
-                                             <div class="price-container">
-                                                <span class="price"> &euro; 800</span>
-                                             </div>
 
-                                             <button class="btn btn-rose btn-simple btn-fab btn-fab-mini btn-round pull-right" rel="tooltip" title="Remove from wishlist" data-placement="left">
-                                                 <i class="material-icons">favorite</i>
-                                             </button>
-                                         </div>
-                                     </div>
-                                 </div> <!-- end card -->
-                        </div>
-
-                        <div class="col-md-4">
-  
-                                 <div class="card card-product card-plain no-shadow" data-colored-shadow="false">
-                                     <div class="card-image">
-                                         <a href="#">
-                                             <img src="{{{ asset('foto_produk/produk_2.jpeg') }}}" alt="..."/>
-                                         </a>
-                                     </div>
-                                     <div class="card-content">
-                                         <a href="#">
-                                             <h4 class="card-title">Polo Ralph Lauren</h4>
-                                         </a>
-                                         <p class="description">
-                                            Impeccably tailored in Italy from lightweight navy wool.
-                                         </p>
-                                         <div class="footer">
-                                             <div class="price-container">
-                                                <span class="price"> &euro; 800</span>
-                                             </div>
-
-                                             <button class="btn btn-rose btn-simple btn-fab btn-fab-mini btn-round pull-right" rel="tooltip" title="Remove from wishlist" data-placement="left">
-                                                 <i class="material-icons">favorite</i>
-                                             </button>
-                                         </div>
-                                     </div>
-                                 </div> <!-- end card -->
-                        </div>
-
-
-                        <div class="col-md-4">
-  
-                                 <div class="card card-product card-plain no-shadow" data-colored-shadow="false">
-                                     <div class="card-image">
-                                         <a href="#">
-                                             <img  src="{{{ asset('foto_produk/produk_2.jpeg') }}}" alt="..."/>
-                                         </a>
-                                     </div>
-                                     <div class="card-content">
-                                         <a href="#">
-                                             <h4 class="card-title">Polo Ralph Lauren</h4>
-                                         </a>
-                                         <p class="description">
-                                            Impeccably tailored in Italy from lightweight navy wool.
-                                         </p>
-                                         <div class="footer">
-                                             <div class="price-container">
-                                                <span class="price"> &euro; 800</span>
-                                             </div>
-
-                                             <button class="btn btn-rose btn-simple btn-fab btn-fab-mini btn-round pull-right" rel="tooltip" title="Remove from wishlist" data-placement="left">
-                                                 <i class="material-icons">favorite</i>
-                                             </button>
-                                         </div>
-                                     </div>
-                                 </div> <!-- end card -->
-                        </div> 
-                        <div class="col-md-4">
-  
-                                 <div class="card card-product card-plain no-shadow" data-colored-shadow="false">
-                                     <div class="card-image">
-                                         <a href="#">
-                                             <img  src="{{{ asset('foto_produk/produk_2.jpeg') }}}" alt="..."/>
-                                         </a>
-                                     </div>
-                                     <div class="card-content">
-                                         <a href="#">
-                                             <h4 class="card-title">Polo Ralph Lauren</h4>
-                                         </a>
-                                         <p class="description">
-                                            Impeccably tailored in Italy from lightweight navy wool.
-                                         </p>
-                                         <div class="footer">
-                                             <div class="price-container">
-                                                <span class="price"> &euro; 800</span>
-                                             </div>
-
-                                             <button class="btn btn-rose btn-simple btn-fab btn-fab-mini btn-round pull-right" rel="tooltip" title="Remove from wishlist" data-placement="left">
-                                                 <i class="material-icons">favorite</i>
-                                             </button>
-                                         </div>
-                                     </div>
-                                 </div> <!-- end card -->
-                        </div>
-
-                        <div class="col-md-4">
-  
-                                 <div class="card card-product card-plain no-shadow" data-colored-shadow="false">
-                                     <div class="card-image">
-                                         <a href="#">
-                                             <img  src="{{{ asset('foto_produk/produk_2.jpeg') }}}" alt="..."/>
-                                         </a>
-                                     </div>
-                                     <div class="card-content">
-                                         <a href="#">
-                                             <h4 class="card-title">Polo Ralph Lauren</h4>
-                                         </a>
-                                         <p class="description">
-                                            Impeccably tailored in Italy from lightweight navy wool.
-                                         </p>
-                                         <div class="footer">
-                                             <div class="price-container">
-                                                <span class="price"> &euro; 800</span>
-                                             </div>
-
-                                             <button class="btn btn-rose btn-simple btn-fab btn-fab-mini btn-round pull-right" rel="tooltip" title="Remove from wishlist" data-placement="left">
-                                                 <i class="material-icons">favorite</i>
-                                             </button>
-                                         </div>
-                                     </div>
-                                 </div> <!-- end card -->
-                        </div>
+ <div class="col-md-4 col-sm-6 col-xs-6 list-produk">
+            <div class="card cards card-pricing">
+            <a href="">
+            <div class="card-image">
+                <img src="{{{ asset('foto_produk/produk_2.jpeg') }}}">
+            </div>
+            </a>
+            <div class="card-content">
+            <div class="footer">
+            <p class="flexFont">
+            <a href="" >  Baju Gamis
+            </a></p>
+            <p style="color:red; font-size:18px">Rp. 18.000 </p>
+ <a href="" class="btn btn-info btn-block" > Lihat Detail </a> 
+            </div>
+            </div>
+            </div>
+            </div>
+ <div class="col-md-4 col-sm-6 col-xs-6 list-produk">
+            <div class="card cards card-pricing">
+            <a href="">
+            <div class="card-image">
+                <img src="{{{ asset('foto_produk/produk_2.jpeg') }}}">
+            </div>
+            </a>
+            <div class="card-content">
+            <div class="footer">
+            <p class="flexFont">
+            <a href="" >  Baju Gamis
+            </a></p>
+            <p style="color:red; font-size:18px">Rp. 18.000 </p>
+ <a href="" class="btn btn-info btn-block" > Lihat Detail </a> 
+            </div>
+            </div>
+            </div>
+            </div>
+ <div class="col-md-4 col-sm-6 col-xs-6 list-produk">
+            <div class="card cards card-pricing">
+            <a href="">
+            <div class="card-image">
+                <img src="{{{ asset('foto_produk/produk_2.jpeg') }}}">
+            </div>
+            </a>
+            <div class="card-content">
+            <div class="footer">
+            <p class="flexFont">
+            <a href="" >  Baju Gamis
+            </a></p>
+            <p style="color:red; font-size:18px">Rp. 18.000 </p>
+ <a href="" class="btn btn-info btn-block" > Lihat Detail </a> 
+            </div>
+            </div>
+            </div>
+            </div>
+ <div class="col-md-4 col-sm-6 col-xs-6 list-produk">
+            <div class="card cards card-pricing">
+            <a href="">
+            <div class="card-image">
+                <img src="{{{ asset('foto_produk/produk_2.jpeg') }}}">
+            </div>
+            </a>
+            <div class="card-content">
+            <div class="footer">
+            <p class="flexFont">
+            <a href="" >  Baju Gamis
+            </a></p>
+            <p style="color:red; font-size:18px">Rp. 18.000 </p>
+ <a href="" class="btn btn-info btn-block" > Lihat Detail </a> 
+            </div>
+            </div>
+            </div>
+            </div>
+ <div class="col-md-4 col-sm-6 col-xs-6 list-produk">
+            <div class="card cards card-pricing">
+            <a href="">
+            <div class="card-image">
+                <img src="{{{ asset('foto_produk/produk_2.jpeg') }}}">
+            </div>
+            </a>
+            <div class="card-content">
+            <div class="footer">
+            <p class="flexFont">
+            <a href="" >  Baju Gamis
+            </a></p>
+            <p style="color:red; font-size:18px">Rp. 18.000 </p>
+ <a href="" class="btn btn-info btn-block" > Lihat Detail </a> 
+            </div>
+            </div>
+            </div>
+            </div>
+            <br><br>
+ <div class="col-md-4 col-sm-6 col-xs-6 list-produk">
+            <div class="card cards card-pricing">
+            <a href="">
+            <div class="card-image">
+                <img src="{{{ asset('foto_produk/produk_2.jpeg') }}}">
+            </div>
+            </a>
+            <div class="card-content">
+            <div class="footer">
+            <p class="flexFont">
+            <a href="" >  Baju Gamis
+            </a></p>
+            <p style="color:red; font-size:18px">Rp. 18.000 </p>
+ <a href="" class="btn btn-info btn-block" > Lihat Detail </a> 
+            </div>
+            </div>
+            </div>
+            </div>
+ <div class="col-md-4 col-sm-6 col-xs-6 list-produk">
+            <div class="card cards card-pricing">
+            <a href="">
+            <div class="card-image">
+                <img src="{{{ asset('foto_produk/produk_2.jpeg') }}}">
+            </div>
+            </a>
+            <div class="card-content">
+            <div class="footer">
+            <p class="flexFont">
+            <a href="" >  Baju Gamis
+            </a></p>
+            <p style="color:red; font-size:18px">Rp. 18.000 </p>
+ <a href="" class="btn btn-info btn-block" > Lihat Detail </a> 
+            </div>
+            </div>
+            </div>
+            </div>
 
 
-                        <div class="col-md-4">
-  
-                                 <div class="card card-product card-plain no-shadow" data-colored-shadow="false">
-                                     <div class="card-image">
-                                         <a href="#">
-                                             <img  src="{{{ asset('foto_produk/produk_2.jpeg') }}}" alt="..."/>
-                                         </a>
-                                     </div>
-                                     <div class="card-content">
-                                         <a href="#">
-                                             <h4 class="card-title">Polo Ralph Lauren</h4>
-                                         </a>
-                                         <p class="description">
-                                            Impeccably tailored in Italy from lightweight navy wool.
-                                         </p>
-                                         <div class="footer">
-                                             <div class="price-container">
-                                                <span class="price"> &euro; 800</span>
-                                             </div>
-
-                                             <button class="btn btn-rose btn-simple btn-fab btn-fab-mini btn-round pull-right" rel="tooltip" title="Remove from wishlist" data-placement="left">
-                                                 <i class="material-icons">favorite</i>
-                                             </button>
-                                         </div>
-                                     </div>
-                                 </div> <!-- end card -->
+ <div class="col-md-4 col-sm-6 col-xs-6 list-produk">
+            <div class="card cards card-pricing">
+            <a href="">
+            <div class="card-image">
+                <img src="{{{ asset('foto_produk/produk_2.jpeg') }}}">
+            </div>
+            </a>
+            <div class="card-content">
+            <div class="footer">
+            <p class="flexFont">
+            <a href="" >  Baju Gamis
+            </a></p>
+            <p style="color:red; font-size:18px">Rp. 18.000 </p>
+ <a href="" class="btn btn-info btn-block" > Lihat Detail </a> 
+            </div>
+            </div>
+            </div>
+            </div> 
+ <div class="col-md-4 col-sm-6 col-xs-6 list-produk">
+            <div class="card cards card-pricing">
+            <a href="">
+            <div class="card-image">
+                <img src="{{{ asset('foto_produk/produk_2.jpeg') }}}">
+            </div>
+            </a>
+            <div class="card-content">
+            <div class="footer">
+            <p class="flexFont">
+            <a href="" >  Baju Gamis
+            </a></p>
+            <p style="color:red; font-size:18px">Rp. 18.000 </p>
+ <a href="" class="btn btn-info btn-block" > Lihat Detail </a> 
+            </div>
+            </div>
+            </div>
+            </div> 
                         </div> 
                    </div> 
  
